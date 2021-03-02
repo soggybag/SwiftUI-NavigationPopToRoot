@@ -10,9 +10,11 @@ import Foundation
 
 class AppController: ObservableObject {
   @Published var timesUp = false
+  @Published var widget: Int = 0
   
   var timer = Timer()
   var countDown: Int = 3
+  
   
   init() {
     
@@ -29,7 +31,7 @@ class AppController: ObservableObject {
   
   func goHome() {
     print("Go Home!")
-    // ?????
+    widget += 1
     timesUp = true
   }
 }
