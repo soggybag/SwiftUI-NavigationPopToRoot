@@ -11,6 +11,7 @@
 		D8F7133725EDC1EE00FD4F9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F7133625EDC1EE00FD4F9F /* ContentView.swift */; };
 		D8F7133925EDC1F000FD4F9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F7133825EDC1F000FD4F9F /* Assets.xcassets */; };
 		D8F7133C25EDC1F000FD4F9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F7133B25EDC1F000FD4F9F /* Preview Assets.xcassets */; };
+		D8F7134525EDC24700FD4F9F /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F7134425EDC24700FD4F9F /* AppController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		D8F7133825EDC1F000FD4F9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8F7133B25EDC1F000FD4F9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D8F7133D25EDC1F000FD4F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8F7134425EDC24700FD4F9F /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				D8F7133425EDC1EE00FD4F9F /* NavigationPopToRootApp.swift */,
 				D8F7133625EDC1EE00FD4F9F /* ContentView.swift */,
+				D8F7134425EDC24700FD4F9F /* AppController.swift */,
 				D8F7133825EDC1F000FD4F9F /* Assets.xcassets */,
 				D8F7133D25EDC1F000FD4F9F /* Info.plist */,
 				D8F7133A25EDC1F000FD4F9F /* Preview Content */,
@@ -140,6 +143,7 @@
 			files = (
 				D8F7133725EDC1EE00FD4F9F /* ContentView.swift in Sources */,
 				D8F7133525EDC1EE00FD4F9F /* NavigationPopToRootApp.swift in Sources */,
+				D8F7134525EDC24700FD4F9F /* AppController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
