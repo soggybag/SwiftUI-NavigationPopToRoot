@@ -10,7 +10,6 @@ import Foundation
 
 class AppController: ObservableObject {
   @Published var timesUp = false
-  @Published var widget: Int = 0
   
   var timer = Timer()
   var countDown: Int = 3
@@ -22,7 +21,6 @@ class AppController: ObservableObject {
   
   func startTimer() {
     countDown = 3
-    timesUp = false
     timer.invalidate()
     timer = Timer.scheduledTimer(withTimeInterval: 3, repeats: false, block: { (timer) in
       self.goHome()
@@ -31,7 +29,6 @@ class AppController: ObservableObject {
   
   func goHome() {
     print("Go Home!")
-    widget += 1
-    timesUp = true
+    timesUp = !timesUp
   }
 }

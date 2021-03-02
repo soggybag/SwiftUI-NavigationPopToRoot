@@ -43,7 +43,7 @@ struct ContentView2: View {
           .padding(40)
       })
     }.navigationBarTitle("Game")
-    .onChange(of: env.widget, perform: { value in
+    .onChange(of: env.timesUp, perform: { value in
       self.shouldPopToRootView = false
     })
   }
